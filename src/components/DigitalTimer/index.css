@@ -1,0 +1,146 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  background: linear-gradient(to right, #defafe, #cffcf1, #defafe);
+  height: 100vh;
+  width: 100vw;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+}
+.times-bottom-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+.timer-image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 540px;
+  width: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-timer {
+  background-color: #ffffff;
+  border-radius: 120px;
+  height: 230px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.running-timer {
+  font-size: 40px;
+  color: #00d9f5;
+  /* margin-bottom: 5px; */
+}
+.btn-container {
+  display: flex;
+  width: 500px;
+  margin-left: 100px;
+}
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.icon {
+  width: 30px;
+  margin-right: 10px;
+}
+.play-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.plus-button-container {
+  display: flex;
+}
+label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.all-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  /* background-color: red; */
+}
+
+.counter {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  color: #1e293b;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.play-pause-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 500;
+}
+.timer-counter {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.btn-containers {
+  display: flex;
+  margin-bottom: 15px;
+}
+.play-btn-container {
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  height: 40px;
+  width: 70px;
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+.plus-minus-btn {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 50px;
+  color: #1e293b;
+}
+.start-running-text {
+  font-size: 20px;
+  font-weight: 500;
+}
